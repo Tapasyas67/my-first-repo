@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tapasya Cosmetics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0; 
+            background-color: #fff0f5;
+            color: #333;
+        }
+        header {
+            background-color: #d85c8c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .product-card {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #d89cbc;
+            padding: 15px;
+            width: 250px;
+            margin: 15px;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px #d89cbc;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        form input, form textarea {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 1em;
+        }
+        form button {
+            background-color: #d85c8c;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #b34974;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #d85c8c;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tapasya Cosmetics</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Tapasya Cosmetics</h2>
+        <p>
+            At Tapasya Cosmetics, we believe in enhancing your natural beauty with
+            products crafted from the finest ingredients. Our mission is to bring you
+            cruelty-free, eco-friendly, and skin-loving cosmetics that make you shine.
+        </p>
+    </section>
+
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x250?text=Lipstick" alt="Lipstick" />
+                <h3>Matte Lipstick</h3>
+                <p>Long-lasting, vibrant color for your perfect pout.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x250?text=Foundation" alt="Foundation" />
+                <h3>Liquid Foundation</h3>
+                <p>Flawless finish with all-day hydration.</p>
+            </div>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/250x250?text=Eye+Shadow" alt="Eye Shadow" />
+                <h3>Eye Shadow Palette</h3>
+                <p>Rich pigments in stunning shades for every look.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 Tapasya Cosmetics. All rights reserved.</p>
+    </footer>
+</body>
+</html>
