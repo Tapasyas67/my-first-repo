@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Craft Shop</title>
+</head>
+<body>
+  <header>
+    <h1>Sunny Crafts Shop</h1>
+    <p>Your one-stop shop for handmade crafts and gifts.</p>
+  </header>
+  
+  <section>
+    <h2>Our Products</h2>
+    <ul>
+      <li>
+        <h3>Handmade Necklace</h3>
+        <img src="https://via.placeholder.com/150" alt="Handmade Necklace" />
+        <p>Price: $25</p>
+      </li>
+      <li>
+        <h3>Knitted Scarf</h3>
+        <img src="https://via.placeholder.com/150" alt="Knitted Scarf" />
+        <p>Price: $30</p>
+      </li>
+      <li>
+        <h3>Ceramic Mug</h3>
+        <img src="https://via.placeholder.com/150" alt="Ceramic Mug" />
+        <p>Price: $15</p>
+      </li>
+    </ul>
+  </section>
+  
+  <section>
+    <h2>Contact Us</h2>
+    <p>Email: contact@sunnycrafts.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+  
+</body>
+</html>
